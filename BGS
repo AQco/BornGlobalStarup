@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Born Global Checker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        input[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            box-sizing: border-box;
+        }
+        input[type=submit] {
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+            width: 100%;
+        }
+        input[type=submit]:hover {
+            background-color: #45a049;
+        }
+    </style>
+</head>
+<body>
+    <h1>Born Global Checker</h1>
+    <p>Enter the company's name below to check if it's a born global company:</p>
+    <form action="">
+        <input type="text" id="companyName" name="companyName" placeholder="Company Name">
+        <input type="submit" value="Check">
+    </form>
+</body>
+</html>
